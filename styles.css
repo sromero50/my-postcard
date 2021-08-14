@@ -1,0 +1,52 @@
+body {
+	background: black;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	font-family: "Zen Loop";
+}
+
+.postcard-header {
+	display: flex;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+}
+
+h1 {
+	width: 350px;
+	margin-top: 0px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+p {
+	font-size: 20px;
+	color: black;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: grey;
+	padding: 5px;
+}
